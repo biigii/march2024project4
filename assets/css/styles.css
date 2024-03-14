@@ -1,42 +1,86 @@
-.delete {
-    background-color: red;
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: capitalize;
+/* 1 1 1*/
+h1.header#header {
+  color: orange;
 }
 
-.cancel {
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: capitalize;
-    background-color: darkgray;
+/* 1 0 1 */
+h1#header {
+  color: yellow;
 }
 
-.info {
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: capitalize;
-    background-color: lightblue;
+/* 0 1 1*/
+h1.header {
+  color: purple;
 }
 
+/* specificity */
+/* we use 3 digits to measure specificity */
+/* id - class - type selector */
+
+/* 1 0 0 */
+/* #header {
+  color: green;
+} */
+
+/* 0 1 0 */
+/* .header {
+  color: blue;
+} */
+
+/* 0 0 1*/
+/* h1 {
+  color: red;
+} */
+
+/* 1 1 1 */
+button.btn#button {
+background-color: darkgreen;
+}
+
+/* 1 1 0 */
+.btn#button {
+  background-color: lightpink;
+}
+
+/* 1 0 1 */
+button#button {
+  background-color: red;
+}
+
+
+/* 1 0 0 */
+#button {
+  background-color: purple;
+}
+
+
+/* 0 0 1 */
+button {
+  background-color: green;
+  /* background-color: orange; */
+}
+
+/* 0 1 1 */
 button.btn {
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: capitalize;
+  background-color: yellow;
 }
 
-.btn-danger {
-    background-color: red;
+/* 0 3 0 */
+.btn.btn-warning.btn-large {
+  background-color: red;
 }
 
-.btn-primary {
-    background-color: darkgray;
+
+/* 0 3 2 */
+.burger p.mustard button.ketchup {
+  background-color: lightskyblue;
 }
 
-.btn-info {
-    background-color: lightblue;
+.btn {
+  background-color: pink !important;
 }
 
-#header {
-    background-color: purple;
+.ketchup {
+  background-color: lightgrey !important;
 }
+
