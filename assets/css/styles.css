@@ -1,59 +1,42 @@
-/* .something {
-    color: red
-} */
-
-/* find an element which has the class of hotdog */
-/* then inside it get all <p> */
-/* .hotdog p {
-    color: red;
-} */
-
-/* .text {
-    color: blue
-} */
-
-/* .hotdog .text {
-    color: blue
-} */
-
-/* .text {
-    background-color: orange;
-} */
-
-/* find an h3 element which has the class of text */
-h3.text {
-  background-color: orange;
+.delete {
+    background-color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
-section.hotdog p.text {
-  color: yellow;
-  background-color: black;
+.cancel {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: darkgray;
 }
 
-section.hotdog .content p {
-  background-color: yellow;
+.info {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: lightblue;
 }
 
-/* .hotdog .content button.btn {
-  background-color: red;
-} */
-
-.content button.btn {
-  background-color: red;
+button.btn {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
-section.text {
-/* means a <section> which itself has class of text */
+.btn-danger {
+    background-color: red;
 }
 
-section .text {
-    /* section which has a child element with class of text */
+.btn-primary {
+    background-color: darkgray;
 }
 
-.content .btn-green {
-    background-color: green;
+.btn-info {
+    background-color: lightblue;
 }
 
-article#hello button#btn {
-    background-color: orange;
+#header {
+    background-color: purple;
 }
