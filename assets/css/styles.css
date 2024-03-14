@@ -1,86 +1,12 @@
-/* 1 1 1*/
-h1.header#header {
-  color: orange;
-}
-
-/* 1 0 1 */
-h1#header {
-  color: yellow;
-}
-
-/* 0 1 1*/
-h1.header {
-  color: purple;
-}
-
-/* specificity */
-/* we use 3 digits to measure specificity */
-/* id - class - type selector */
-
-/* 1 0 0 */
-/* #header {
+h1 {
+  /* text color */
+  /* keyword color */
   color: green;
-} */
-
-/* 0 1 0 */
-/* .header {
-  color: blue;
-} */
-
-/* 0 0 1*/
-/* h1 {
-  color: red;
-} */
-
-/* 1 1 1 */
-button.btn#button {
-background-color: darkgreen;
+  /* hexadecimal colors */
+  /* 0 1 2 3 4 5 6 7 8 9 a b c d e f */
+  color: #00f;
+  background-color: #f00;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0,255,0);
+  color: hsl(240,100%, 100%)
 }
-
-/* 1 1 0 */
-.btn#button {
-  background-color: lightpink;
-}
-
-/* 1 0 1 */
-button#button {
-  background-color: red;
-}
-
-
-/* 1 0 0 */
-#button {
-  background-color: purple;
-}
-
-
-/* 0 0 1 */
-button {
-  background-color: green;
-  /* background-color: orange; */
-}
-
-/* 0 1 1 */
-button.btn {
-  background-color: yellow;
-}
-
-/* 0 3 0 */
-.btn.btn-warning.btn-large {
-  background-color: red;
-}
-
-
-/* 0 3 2 */
-.burger p.mustard button.ketchup {
-  background-color: lightskyblue;
-}
-
-.btn {
-  background-color: pink !important;
-}
-
-.ketchup {
-  background-color: lightgrey !important;
-}
-
