@@ -1,50 +1,59 @@
-/* <h1 class="heading" id="heading">homepage</h1> */
-
-/* the cascade */
-
-
-/* id is first, then class and lastly type */
-
-#heading {
-    color: blue
-}
-
-
-
-.heading {
-    color: purple
-}
-
-
-h1 {
-    color: red
-}
-
-
-
-
-/* h1 {
-    color: blue;
-}
-
-h1 {
-    color: orange;
-    color: green;
+/* .something {
     color: red
 } */
 
-/* .heading {
-    background-color: red;
-}
+/* find an element which has the class of hotdog */
+/* then inside it get all <p> */
+/* .hotdog p {
+    color: red;
+} */
 
-.heading {
+/* .text {
+    color: blue
+} */
+
+/* .hotdog .text {
+    color: blue
+} */
+
+/* .text {
     background-color: orange;
 } */
 
-/* #heading {
-    color: orange
+/* find an h3 element which has the class of text */
+h3.text {
+  background-color: orange;
 }
 
-#heading {
-    color: green
+section.hotdog p.text {
+  color: yellow;
+  background-color: black;
+}
+
+section.hotdog .content p {
+  background-color: yellow;
+}
+
+/* .hotdog .content button.btn {
+  background-color: red;
 } */
+
+.content button.btn {
+  background-color: red;
+}
+
+section.text {
+/* means a <section> which itself has class of text */
+}
+
+section .text {
+    /* section which has a child element with class of text */
+}
+
+.content .btn-green {
+    background-color: green;
+}
+
+article#hello button#btn {
+    background-color: orange;
+}
