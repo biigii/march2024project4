@@ -1,3 +1,50 @@
-h1 {
-    color: red;
+/* <h1 class="heading" id="heading">homepage</h1> */
+
+/* the cascade */
+
+
+/* id is first, then class and lastly type */
+
+#heading {
+    color: blue
 }
+
+
+
+.heading {
+    color: purple
+}
+
+
+h1 {
+    color: red
+}
+
+
+
+
+/* h1 {
+    color: blue;
+}
+
+h1 {
+    color: orange;
+    color: green;
+    color: red
+} */
+
+/* .heading {
+    background-color: red;
+}
+
+.heading {
+    background-color: orange;
+} */
+
+/* #heading {
+    color: orange
+}
+
+#heading {
+    color: green
+} */
